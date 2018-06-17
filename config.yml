@@ -7,7 +7,8 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "Data Pioneers 2018"
+  Name: "Data Pioneers"
+  Title: "Data Pioneers 2018"
   Description: "Data Pioneers 2018"
   Date: "November 8th 2018"
   #Price: "Only $100" # If your event is free, just comment this line
