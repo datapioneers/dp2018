@@ -1,5 +1,5 @@
-baseurl: "http://datapioneers.tech"
-title: "Data Pioneers"
+baseurl: "https://datapioneers.tech"
+title: "Data Pioneers 2018"
 canonifyurls: true
 theme: "hugo-conference"
 
@@ -7,7 +7,7 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "Data Pioneers"
+  Name: "Data Pioneers 2018"
   Description: "Data Pioneers 2018"
   Date: "November 8th 2018"
   #Price: "Only $100" # If your event is free, just comment this line
