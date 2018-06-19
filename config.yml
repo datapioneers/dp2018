@@ -1,4 +1,5 @@
 baseurl: "https://datapioneers.tech"
+#baseurl: "."
 title: "Data Pioneers 2018"
 canonifyurls: true
 theme: "hugo-conference"
@@ -20,6 +21,7 @@ params:
   #State: "Quintana"
   Images: ["/img/badge.jpg"]
   GoogleMapsKey: "my-secret-maps-key"
+  GoogleDomainKey: "4GkTBhQRpMAM6JpHPPGQWmHUD1HTto0vvZjjk890oio"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
@@ -30,7 +32,7 @@ params:
     - schedule
     - organizers
     - sponsors
-    #- partners
+    - partners
     #- contact
 
   # Titles which you can translate to other languages
@@ -61,13 +63,13 @@ params:
       url: "https://standort.allgaeu.de/allgaeudigital"
 
   # List of Partners
-  #Partners:
-  #  - name: "Hugo"
-  #    logo: "/img/hugo.jpg"
-  #    url: "https://gohugo.io"
-  #  - name: "BrazilJS"
-  #    logo: "/img/partner.png"
-  #    url: "http://braziljs.org"
+  Partners:
+    - name: "4ländereck Data Science Meetup"
+      logo: "/img/partner-4leds.png"
+      url: "https://www.meetup.com/4laendereck-Data-Science-Meetup/"
+    - name: "Data Science Stammtisch Allgäu"
+      logo: "/img/partner-dssallgaeu.jpg"
+      url: "https://www.meetup.com/Data-Science-Stammtisch-Allgau/"
 
   # The entire schedule
   Schedule:
