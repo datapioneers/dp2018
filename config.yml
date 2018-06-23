@@ -1,5 +1,5 @@
-baseurl: "https://datapioneers.tech"
-#baseurl: "."
+#baseurl: "https://datapioneers.tech"
+baseurl: "."
 title: "Data Pioneers 2018"
 canonifyurls: true
 theme: "hugo-conference"
@@ -14,10 +14,10 @@ params:
   Date: "November 8th 2018"
   #Price: "Only $100" # If your event is free, just comment this line
   Venue:
-    text: "Gründerzentrum Kempten"
+    text: "Allgäu Digital - Digitales Zentrum Schwaben"
     href: "https://standort.allgaeu.de/gruenderzentrum"
   Address: "Keselstraße 16"
-  City:  "87435 Kempten"
+  City:  "87435 Kempten (Allgäu)"
   #State: "Quintana"
   Images: ["/img/badge.jpg"]
   GoogleMapsKey: "my-secret-maps-key"
@@ -28,12 +28,12 @@ params:
   Sections:
     - about
     - location
-    - speakers
-    - schedule
+    #- speakers
+    #- schedule
     - organizers
-    - sponsors
     - partners
-    #- contact
+    #- sponsors
+    - contact
 
   # Titles which you can translate to other languages
   Titles:
@@ -48,9 +48,9 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  CallToAction:
-    text: "Register now!"
-    link: "http://register.example.com"
+  #CallToAction:
+  #  text: "Register now!"
+  #  link: "http://register.example.com"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   #ForkButton:
@@ -64,6 +64,15 @@ params:
 
   # List of Partners
   Partners:
+    - name: "Allgäu Digital - Digitales Zentrum Schwaben"
+      logo: "/img/partner-ad.jpg"
+      url: "http://www.digital.allgaeu.de"
+    - name: "Gründerland Bayern"
+      logo: "/img/partner-gb.jpg"
+      url: "https://www.gruenderland.bayern/"
+    - name: "Bayerisches Staatsministerium für Wirtschaft, Energie und Technologie"
+      logo: "/img/partner-bswet.jpg"
+      url: "https://www.stmwi.bayern.de/"
     - name: "4ländereck Data Science Meetup"
       logo: "/img/partner-4leds.png"
       url: "https://www.meetup.com/4laendereck-Data-Science-Meetup/"
@@ -170,7 +179,7 @@ params:
         text: LinkedIn
     - name: Christian Dosch
       photo: "img/org-christian.jpg"
-      bio: "Christian is ..."
+      bio: "Christian Dosch coordinates Allgäu Digital – Digitales Zentrum Schwaben as a project manager. Allgäu Digital is a startup center, incubator and network with the focus on digital business models situated in Kempten, Allgäu. After finishing his studies at the Hochschule der Medien in Stuttgart, he worked project-based for different film and media companies in Munich and Berlin and then passed his experience to other filmmakers as a Film Commissioner in Stuttgart Region. In 2016 he decided to move to the Westallgäu, became self-employed with the Spurfinder UG and nows stands up for putting rural areas on the map of digital transformation and innovation."
       link:
-        href: https://www.xing.com/profile/Christian_Dosch2
-        text: Xing
+        href: https://www.linkedin.com/in/christiandosch/
+        text: LinkedIn
