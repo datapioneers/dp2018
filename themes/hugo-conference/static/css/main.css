@@ -465,12 +465,12 @@ nav {
 .sponsor-item,
 .partner-item {
   display: inline-block;
-  margin: 0 30px 30px 0;
+  margin: 20px 0px 0px 20px;
 }
 .sponsor--link,
 .partner-link {
   display: block;
-  width: 150px;
+  width: 250px;
   height: 150px;
   text-align: center;
   vertical-align: middle;
@@ -850,9 +850,9 @@ nav {
    ========================================================================== */
 .sponsor--link,
 .partner-link {
-  background: #fff;
+  /*background: #fff;
   border: 1px solid #ccc;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);*/
 }
 .sponsor--link:hover,
 .sponsor--link:focus,

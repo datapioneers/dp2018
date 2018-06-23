@@ -65,19 +65,19 @@ params:
   # List of Partners
   Partners:
     - name: "Allgäu Digital - Digitales Zentrum Schwaben"
-      logo: "/img/partner-ad.jpg"
+      logo: "/img/partner-ad.png"
       url: "http://www.digital.allgaeu.de"
     - name: "Gründerland Bayern"
-      logo: "/img/partner-gb.jpg"
+      logo: "/img/partner-gb.png"
       url: "https://www.gruenderland.bayern/"
     - name: "Bayerisches Staatsministerium für Wirtschaft, Energie und Technologie"
-      logo: "/img/partner-bswet.jpg"
+      logo: "/img/partner-bswet.png"
       url: "https://www.stmwi.bayern.de/"
     - name: "4ländereck Data Science Meetup"
       logo: "/img/partner-4leds.png"
       url: "https://www.meetup.com/4laendereck-Data-Science-Meetup/"
     - name: "Data Science Stammtisch Allgäu"
-      logo: "/img/partner-dssallgaeu.jpg"
+      logo: "/img/partner-dssallgaeu.png"
       url: "https://www.meetup.com/Data-Science-Stammtisch-Allgau/"
 
   # The entire schedule
