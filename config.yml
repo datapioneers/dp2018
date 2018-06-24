@@ -173,13 +173,13 @@ params:
         text: LinkedIn
     - name: Manuel J. A. Eugster
       photo: "img/org-manuel.jpg"
-      bio: "Manuel is a data scientist by heart on the mission of turning data into insights. Currently he is leading the Data Analytics & Insights unit at Avira. "
+      bio: "Manuel is a data scientist by heart on the mission of turning data into insights. Currently he leads the Data Analytics & Insights unit at Avira. There he and his team develop data analytics solutions that transform massive amounts of (real-time) data from various sources into knowledge about customers and products. Prior to Avira, he was a scientific researcher at the Probabilistic Machine Learning group at HIIT, Aalto University in Finland and the Department of Statistics at LMU Munich. He worked, among other things, on next generation information retrieval systems using brain-computer interfaces. He holds a PhD in Statistics from LMU Munich, a MSc in Computational Intelligence and a BSc in Software and Information Engineering from TU Vienna."
       link:
         href: https://www.linkedin.com/in/mjaeugster
         text: LinkedIn
     - name: Christian Dosch
       photo: "img/org-christian.jpg"
-      bio: "Christian Dosch coordinates Allgäu Digital – Digitales Zentrum Schwaben as a project manager. Allgäu Digital is a startup center, incubator and network with the focus on digital business models situated in Kempten, Allgäu. After finishing his studies at the Hochschule der Medien in Stuttgart, he worked project-based for different film and media companies in Munich and Berlin and then passed his experience to other filmmakers as a Film Commissioner in Stuttgart Region. In 2016 he decided to move to the Westallgäu, became self-employed with the Spurfinder UG and nows stands up for putting rural areas on the map of digital transformation and innovation."
+      bio: "Christian coordinates Allgäu Digital – Digitales Zentrum Schwaben as a project manager. Allgäu Digital is a startup center, incubator and network with the focus on digital business models situated in Kempten, Allgäu. After finishing his studies at the Hochschule der Medien in Stuttgart, he worked project-based for different film and media companies in Munich and Berlin and then passed his experience to other filmmakers as a Film Commissioner in Stuttgart Region. In 2016 he decided to move to the Westallgäu, became self-employed with the Spurfinder UG and nows stands up for putting rural areas on the map of digital transformation and innovation."
       link:
         href: https://www.linkedin.com/in/christiandosch/
         text: LinkedIn
