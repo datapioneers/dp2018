@@ -34,6 +34,8 @@ params:
     - partners
     #- sponsors
     - contact
+    - impressum
+    - privacy
 
   # Titles which you can translate to other languages
   Titles:
@@ -45,6 +47,8 @@ params:
     partners: "Partners"
     contact: "Contact"
     organizers: "Organizers"
+    impressum: "Impressum"
+    privacy: "Privacy"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
