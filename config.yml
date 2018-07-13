@@ -10,7 +10,7 @@ params:
   # Conference info
   Name: "Data Pioneers"
   Title: "Data Pioneers 2018"
-  Description: "Data Pioneers 2018"
+  Description: "A full-day conferene on data science, machine learning and artificial intelligence in industry and business."
   Date: "November 8th 2018, Kempten"
   #Price: "Only $100" # If your event is free, just comment this line
   Venue:
@@ -19,7 +19,7 @@ params:
   Address: "Keselstraße 16"
   City:  "87435 Kempten (Allgäu)"
   #State: "Quintana"
-  Images: ["/img/badge.png"]
+  Images: ["https://datapioneers.tech//img/badge.png"]
   GoogleMapsKey: "my-secret-maps-key"
   GoogleDomainKey: "4GkTBhQRpMAM6JpHPPGQWmHUD1HTto0vvZjjk890oio"
 
