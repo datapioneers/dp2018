@@ -19,7 +19,7 @@ params:
   Address: "Keselstraße 16"
   City:  "87435 Kempten (Allgäu)"
   #State: "Quintana"
-  Images: ["https://datapioneers.tech//img/badge.png"]
+  Images: ["https://datapioneers.tech/img/badge.png"]
   GoogleMapsKey: "my-secret-maps-key"
   GoogleDomainKey: "4GkTBhQRpMAM6JpHPPGQWmHUD1HTto0vvZjjk890oio"
 
