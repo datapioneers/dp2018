@@ -28,7 +28,7 @@ params:
   Sections:
     - about
     - location
-    #- speakers
+    - speakers
     #- schedule
     - organizers
     - partners
@@ -89,83 +89,29 @@ params:
     - name: "Check-in / Breakfast"
       time: "9h00"
 
-    - name: "Linus Torvalds"
-      photo: "/img/speaker.png"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Linux Foundation"
+    - name: "Matthias Anderer"
+      photo: "/img/speaker-MatthiasAnderer.png"
+      bio: "Innovation and Technology consultant Matthias Anderer supports the leading DAX and MDAX companies like Munich RE, as well as medium-sized companies around Munich. After his studies in aerospace technology (Dipl-Ing. TUM), he worked at Bain & Company (among others) and was part of the establishing team of the TechFounders Startup Program. With his focus on digitalization and artificial intelligence he supports his clients in all upcoming technical and scientific issues."
+      company: "Matthias Anderer GmbH"
       link:
-        href: "http://twitter.com/linus"
-        text: "@linus"
+        href: "http://www.matthiasanderer.de/"
+        text: "Link"
       presentation:
-        title: "Digging into a Linux Kernel"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        title: "Between Dream and Reality - The Long Journey to AI"
+        description: "While DeepMind & others weekly release new and more spectecular results, is the German industry regarding AI still at the very beginning. We will examine examples on the subject to understand why >80% of the work depends on data determination and data preparation and clarify the big open questions regarding AI application."
         time: "10h00"
 
-    - name: "Bill Gates"
-      photo: "/img/speaker.png"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Microsoft"
+    - name: "Tobias Windisch"
+      photo: "/img/speaker-TobiasWindisch.png"
+      bio: "Tobias is a python enthusiast working as data scientist at Robert Bosch GmbH. There, he builds machine learning pipelines to derive decisions from large datasets of manufacturing processes automatically. After obtaining his PhD in mathematics, he worked for Daimler TSS GmbH, a subsidiary of Daimler AG, where one of this tasks was to find anomalies in time series data of electric cars."
+      company: "Robert Bosch GmbH"
       link:
-        href: "http://github.com/billy95"
-        text: "@billy95"
+        href: "http://www.tobias-windisch.de"
+        text: "Link"
       presentation:
-        title: "Introducing Windows 12"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        title: "Boosting Assembly Lines with Machine Learning"
+        description: "A key challenge in running production lines efficiently is to detect bad parts early in the manufacturing process. Machine learning allows to predict the status of parts, but as bad ones are rare and misclassifying good ones is expensive, finding feasible models is hard. We present how we train and select profitable models to detect bad parts early in the assembly process of automotive camera systems and show the challenges we faced when dealing with imbalanced datasets from manufacturing lines."
         time: "11h00"
-
-    - name: "Lunch"
-      time: "12h00"
-
-    - name: "Chuck Norris"
-      photo: "/img/speaker.png"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Delta Command"
-      link:
-        href: "http://twitter.com/littlechuck"
-        text: "@littlechuck"
-      presentation:
-        title: "How to kill a elephant with one finger"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "13h00"
-
-    - name: "Steve Jobs"
-      photo: "/img/speaker.png"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
-      link:
-        href: "http://github.com/stevie"
-        text: "@stevie"
-      presentation:
-        title: "Presenting iPad"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "14h00"
-
-    - name: "Coffee-break"
-      time: "15h00"
-
-    - name: "Mark Zuckerberg"
-      photo: "/img/speaker.png"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Facebook"
-      link:
-        href: "http://twitter.com/zuck"
-        text: "@zuck"
-      presentation:
-        title: "Revealing Facebook Secrets"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "16h00"
-
-    - name: "Steve Wozniak"
-      photo: "/img/speaker.png"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
-      link:
-        href: "http://twitter.com/woz"
-        text: "@woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "17h00"
 
   # Organizers:
   Organizers:
