@@ -21,8 +21,8 @@
     <h3 class="speakers-name">{{ .name }}
       ({{ .company }})
     </h3>
-    <p class="speakers-bio">{{ .bio }}</p>
     <p class="speakers-bio">
+      {{ .bio }}
       {{ with .link }}
       <a href="{{ .href }}" target="_blank" title="{{ .text }}"> {{ .text }} </a>
       {{ end }}

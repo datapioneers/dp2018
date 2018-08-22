@@ -11,11 +11,11 @@
 
     <h3 class="speakers-name">{{ .name }}</h3>
     <p class="speakers-bio">{{ .bio }}</p>
+    {{ with .link }}
     <p class="speakers-bio">
-      {{ with .link }}
       <a href="{{ .href }}" target="_blank" title="{{ .text }}"> {{ .text }} </a>
-      {{ end }}
     </p>
+    {{ end }}
   </li>
 {{ end }}
 </ul>

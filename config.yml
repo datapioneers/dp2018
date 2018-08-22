@@ -52,9 +52,9 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  #CallToAction:
-  #  text: "Register now!"
-  #  link: "http://register.example.com"
+  CallToAction:
+    text: "Register now!"
+    link: "http://datapioneers2018.eventbrite.de/"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   #ForkButton:
@@ -95,7 +95,7 @@ params:
       company: "Matthias Anderer GmbH"
       link:
         href: "http://www.matthiasanderer.de/"
-        text: "Link"
+        text: "Speaker's website"
       presentation:
         title: "Between Dream and Reality - The Long Journey to AI"
         description: "While DeepMind & others weekly release new and more spectecular results, is the German industry regarding AI still at the very beginning. We will examine examples on the subject to understand why >80% of the work depends on data determination and data preparation and clarify the big open questions regarding AI application."
@@ -107,7 +107,7 @@ params:
       company: "Robert Bosch GmbH"
       link:
         href: "http://www.tobias-windisch.de"
-        text: "Link"
+        text: "Speaker's website"
       presentation:
         title: "Boosting Assembly Lines with Machine Learning"
         description: "A key challenge in running production lines efficiently is to detect bad parts early in the manufacturing process. Machine learning allows to predict the status of parts, but as bad ones are rare and misclassifying good ones is expensive, finding feasible models is hard. We present how we train and select profitable models to detect bad parts early in the assembly process of automotive camera systems and show the challenges we faced when dealing with imbalanced datasets from manufacturing lines."
