@@ -2,31 +2,33 @@
 
 <ul class="speakers-list">
 {{ range $speaker := (where .schedule "presentation" "ne" nil) }}
-  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-    {{ with .photo }}
-      <span class="speaker-photo">
-        <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
-      </span>
-    {{ end }}
-
-    <h3 class="speech-title">
-      <!--{{ with .presentation.time }}
-      <span class="speech-time">{{ . }}</span>
-      {{ end }}-->
-      <span>{{ .presentation.title }}</span>
-    </h3>
-
-    <p class="speakers-bio">{{ .presentation.description }}</p>
-
-    <h3 class="speakers-name">{{ .name }}
-      ({{ .company }})
-    </h3>
-    <p class="speakers-bio">
-      {{ .bio }}
-      {{ with .link }}
-      <a href="{{ .href }}" target="_blank" title="{{ .text }}"> {{ .text }} </a>
+  {{ if ne .name nil }}
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      {{ with .photo }}
+        <span class="speaker-photo">
+          <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
+        </span>
       {{ end }}
-    </p>
-  </li>
+
+      <h3 class="speech-title">
+        <!--{{ with .presentation.time }}
+        <span class="speech-time">{{ . }}</span>
+        {{ end }}-->
+        <span>{{ .presentation.title }}</span>
+      </h3>
+
+      <p class="speakers-bio">{{ .presentation.description }}</p>
+
+      <h3 class="speakers-name">{{ .name }}
+        ({{ .company }})
+      </h3>
+      <p class="speakers-bio">
+        {{ .bio }}
+        {{ with .link }}
+        <a href="{{ .href }}" target="_blank" title="{{ .text }}"> {{ .text }} </a>
+        {{ end }}
+      </p>
+    </li>
+    {{ end }}
 {{ end }}
 </ul>

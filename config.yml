@@ -29,7 +29,7 @@ params:
     - about
     - location
     - speakers
-    #- schedule
+    - schedule
     - organizers
     - partners
     #- sponsors
@@ -86,8 +86,11 @@ params:
 
   # The entire schedule
   Schedule:
-    - name: "Check-in / Breakfast"
-      time: "9h00"
+    - name: "Registration"
+      time: "8h45"
+
+    - name: "Welcome"
+      time: "9h15"
 
     - name: "Matthias Anderer"
       photo: "/img/speaker-MatthiasAnderer.png"
@@ -99,7 +102,11 @@ params:
       presentation:
         title: "Between Dream and Reality - The Long Journey to AI"
         description: "While DeepMind & others weekly release new and more spectecular results, is the German industry regarding AI still at the very beginning. We will examine examples on the subject to understand why >80% of the work depends on data determination and data preparation and clarify the big open questions regarding AI application."
-        time: "10h00"
+        time: "9h30"
+        info: "Opening keynote"
+
+    - name: "Coffee break"
+      time: "10h30"
 
     - name: "Tobias Windisch"
       photo: "/img/speaker-TobiasWindisch.png"
@@ -113,17 +120,20 @@ params:
         description: "A key challenge in running production lines efficiently is to detect bad parts early in the manufacturing process. Machine learning allows to predict the status of parts, but as bad ones are rare and misclassifying good ones is expensive, finding feasible models is hard. We present how we train and select profitable models to detect bad parts early in the assembly process of automotive camera systems and show the challenges we faced when dealing with imbalanced datasets from manufacturing lines."
         time: "11h00"
 
-    - name: "Stefan König"
-      photo: "/img/speaker-StefanKoenig.png"
-      bio: "Stefan, Manager Data Analytics at sonnen, can indeed be described as a data scientist of the first hour. At Blue Yonder he and his colleagues were among the first to combine scientific algorithms with state-of-the-art software development to take optimal, dynamic decisions for pricing and replenishment. In 2017 he joined sonnen for being able to contribute to a successful energy transition. At sonnen, Stefan and his team employ thorough scientific approaches to turn historic and live measurement data into optimal control signals for sonnenBatteries and sonnenChargers. Stefan holds a PhD in Mathematics from Technische Universität München where his research was concerned with tackling the complexity of high-dimensional optimization problems like they arise in his daily work today."
-      company: "sonnen GmbH"
+    - name:
+      photo: "/img/speaker.png"
+      bio: ""
+      company: ""
       link:
-        href: "http://www.linkedin.com/in/stefanmkoenig"
+        href: ""
         text: "Speaker's website"
       presentation:
-        title: "Turning Measurements into Optimal Control Signals"
-        description: "The heart of sonnen’s products, such as the sonnenBatterie and the sonnenCharger, is to allow their users to optimize the consumption of their self-generated energy. In addition, these devices are also very well suited to offer flexibility to the energy market as they allow a quick and precise reaction to fluctuations of decentralized renewable energy sources. The sonnenBatterie and the sonnenCharger hence come with a charge control that ensures an optimal mix of savings by self-consumed energy and additional revenues from different flexibility markets and grid services. In this talk, I will show how predictions built from historic measurement data are turned into optimal control signals by means of Mathematical Programming."
-        time: "12h00"
+        title: ""
+        description: ""
+        time: "11h30"
+
+    - name: "Lunch break"
+      time: "12h00"
 
     - name: "Katharina Brunner"
       photo: "/img/speaker-KatharinaBrunner.png"
@@ -135,7 +145,63 @@ params:
       presentation:
         title: "Driven Data Journalism: How data can change reporting"
         description: "Like in many other industries, data driven insights play an ever more important role in journalism. Katharina Brunner will speak about some projects she has been working on at the Süddeutsche Zeitung, one of the largest and most important newspaper in the South of Germany. For example: How to get an idea of the blackbox Facebook? How has the German Parliament changed ever since the AfD entered the scene? And, most important, how to communicate the findings in a non-nerdy way?"
-        time: "12h00"
+        time: "13h00"
+
+    - name:
+      photo: "/img/speaker.png"
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: "Speaker's website"
+      presentation:
+        title: ""
+        description: ""
+        time: "13h30"
+
+    - name:
+      photo: "/img/speaker.png"
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: "Speaker's website"
+      presentation:
+        title: ""
+        description: ""
+        time: "14h00"
+
+    - name:
+      photo: "/img/speaker.png"
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: "Speaker's website"
+      presentation:
+        title: ""
+        description: ""
+        time: "14h30"
+
+    - name: "Stefan König"
+      photo: "/img/speaker-StefanKoenig.png"
+      bio: "Stefan, Manager Data Analytics at sonnen, can indeed be described as a data scientist of the first hour. At Blue Yonder he and his colleagues were among the first to combine scientific algorithms with state-of-the-art software development to take optimal, dynamic decisions for pricing and replenishment. In 2017 he joined sonnen for being able to contribute to a successful energy transition. At sonnen, Stefan and his team employ thorough scientific approaches to turn historic and live measurement data into optimal control signals for sonnenBatteries and sonnenChargers. Stefan holds a PhD in Mathematics from Technische Universität München where his research was concerned with tackling the complexity of high-dimensional optimization problems like they arise in his daily work today."
+      company: "sonnen GmbH"
+      link:
+        href: "http://www.linkedin.com/in/stefanmkoenig"
+        text: "Speaker's website"
+      presentation:
+        title: "Turning Measurements into Optimal Control Signals"
+        description: "The heart of sonnen’s products, such as the sonnenBatterie and the sonnenCharger, is to allow their users to optimize the consumption of their self-generated energy. In addition, these devices are also very well suited to offer flexibility to the energy market as they allow a quick and precise reaction to fluctuations of decentralized renewable energy sources. The sonnenBatterie and the sonnenCharger hence come with a charge control that ensures an optimal mix of savings by self-consumed energy and additional revenues from different flexibility markets and grid services. In this talk, I will show how predictions built from historic measurement data are turned into optimal control signals by means of Mathematical Programming."
+        time: "15h00"
+        info: "Closening keynote"
+
+    - name: "Goodbye"
+      time: "16h00"
+
+    - name: "Conference dinner"
+      time: "18h00 - 22h30"
+
 
   # Organizers:
   Organizers:
