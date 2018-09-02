@@ -171,17 +171,8 @@ params:
         description: ""
         time: "14h00"
 
-    - name:
-      photo: "/img/speaker.png"
-      bio: ""
-      company: ""
-      link:
-        href: ""
-        text: "Speaker's website"
-      presentation:
-        title: ""
-        description: ""
-        time: "14h30"
+    - name: "Coffee break"
+      time: "14h30"
 
     - name: "Stefan König"
       photo: "/img/speaker-StefanKoenig.png"
