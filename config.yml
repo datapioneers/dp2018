@@ -200,7 +200,8 @@ params:
       time: "16h00"
 
     - name: "Conference dinner"
-      time: "18h00 - 22h30"
+      time: "18h00"
+      info: "Details can be find <a href=\"https://docs.google.com/viewer?url=https://datapioneers.tech/dp2018-dinner.pdf\">here</a>"
 
 
   # Organizers:

@@ -16,25 +16,25 @@
           <tr>
             <td class="schedule-time">{{ .presentation.time }}</td>
             <td class="schedule-slot">
-            {{ .presentation.info }}<br/><br/>
-            {{ with .photo }}
+              {{ with .photo }}
               <span class="speaker-photo">
                 <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
               </span>
-            {{ end }}
-
-              {{ .presentation.title }}
+              {{ end }}
               <span class="speakers-company">{{ .name }}</span>
             </td>
             <td class="schedule-description">
-              {{ .presentation.description }}
+              {{ .presentation.title }}
+              <span class="speakers-company">{{ .presentation.info }}</span>
             </td>
           </tr>
         {{ else }}
-          <tr class="schedule-other">
+          <tr>
             <td class="schedule-time">{{ .time }}</td>
-            <td class="schedule-slot">{{ .name }}</td>
-            <td class="schedule-description"></td>
+            <td class="schedule-slot"></td>
+            <td class="schedule-description">
+              {{ .name }}
+            </td>
           </tr>
         {{ end }}
       {{ end }}
