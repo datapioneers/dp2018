@@ -113,6 +113,30 @@ params:
         description: "A key challenge in running production lines efficiently is to detect bad parts early in the manufacturing process. Machine learning allows to predict the status of parts, but as bad ones are rare and misclassifying good ones is expensive, finding feasible models is hard. We present how we train and select profitable models to detect bad parts early in the assembly process of automotive camera systems and show the challenges we faced when dealing with imbalanced datasets from manufacturing lines."
         time: "11h00"
 
+    - name: "Stefan König"
+      photo: "/img/speaker-StefanKoenig.png"
+      bio: "Stefan, Manager Data Analytics at sonnen, can indeed be described as a data scientist of the first hour. At Blue Yonder he and his colleagues were among the first to combine scientific algorithms with state-of-the-art software development to take optimal, dynamic decisions for pricing and replenishment. In 2017 he joined sonnen for being able to contribute to a successful energy transition. At sonnen, Stefan and his team employ thorough scientific approaches to turn historic and live measurement data into optimal control signals for sonnenBatteries and sonnenChargers. Stefan holds a PhD in Mathematics from Technische Universität München where his research was concerned with tackling the complexity of high-dimensional optimization problems like they arise in his daily work today."
+      company: "sonnen GmbH"
+      link:
+        href: "http://www.linkedin.com/in/stefanmkoenig"
+        text: "Speaker's website"
+      presentation:
+        title: "Turning Measurements into Optimal Control Signals"
+        description: "The heart of sonnen’s products, such as the sonnenBatterie and the sonnenCharger, is to allow their users to optimize the consumption of their self-generated energy. In addition, these devices are also very well suited to offer flexibility to the energy market as they allow a quick and precise reaction to fluctuations of decentralized renewable energy sources. The sonnenBatterie and the sonnenCharger hence come with a charge control that ensures an optimal mix of savings by self-consumed energy and additional revenues from different flexibility markets and grid services. In this talk, I will show how predictions built from historic measurement data are turned into optimal control signals by means of Mathematical Programming."
+        time: "12h00"
+
+    - name: "Katharina Brunner"
+      photo: "/img/speaker-KatharinaBrunner.png"
+      bio: "Katharina Brunner is part of the team Data and Digital Investigation at Süddeutsche Zeitung. There, she works at the intersection of traditional reporting, data analysis and data visualization."
+      company: "Süddeutsche Zeitung"
+      link:
+        href: "http://katharinabrunner.de"
+        text: "Speaker's website"
+      presentation:
+        title: "Driven Data Journalism: How data can change reporting"
+        description: "Like in many other industries, data driven insights play an ever more important role in journalism. Katharina Brunner will speak about some projects she has been working on at the Süddeutsche Zeitung, one of the largest and most important newspaper in the South of Germany. For example: How to get an idea of the blackbox Facebook? How has the German Parliament changed ever since the AfD entered the scene? And, most important, how to communicate the findings in a non-nerdy way?"
+        time: "12h00"
+
   # Organizers:
   Organizers:
     - name: Julia Ehrenmüller
