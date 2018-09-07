@@ -135,6 +135,18 @@ params:
     - name: "Lunch break"
       time: "12h00"
 
+    - name: "Hannes Sieling"
+      photo: "/img/speaker-HannesSieling.png"
+      bio: "Hannes is working as an expert data scientist at Blue Yonder in Hamburg, where he develops profound machine learning models for price optimization. From 2005 until 2010 he studied mathematical economics at the University of Göttingen and in 2013 he received his PhD in mathematical statistics for his research on 'Statistical Multiscale Segmentation: Inference, Algorithms and Applications'."
+      company: "Blue Yonder GmbH"
+      link:
+        href: "https://www.xing.com/profile/Hannes_Sieling/"
+        text: "Speaker's website"
+      presentation:
+        title: "Price Optimization: Applied Machine-Learning to drive business decisions"
+        description: "The talk guides through the challenges of applying decision-making algorithms based on machine learning to business processes by means of Price Optimization. In the context of Price Optimization accurate demand forecasts enable retailer to find prices according to their business strategy, consumer demand and market conditions. Forecasts for demand and price elasticities are regression tasks that can be addressed by supervised learning algorithms. On the one hand, rare events such as holidays, weather effects, promotions and trends evolving over time require special treatment. On the other hand, the particular use of the forecasts to actively steer prices imposes the substantial challenge to identify the casual effect of price changes to customers’ demand. That is why Data-Scientists involved in Price Optimization face problems that cover exciting parts across areas from statistical learning, discrete optimization, reinforcement learning and many more. A detailed view on these statistical challenges, many practical aspects and insights of the potential of these applications are provided within this talk."
+        time: "13h00"
+
     - name: "Katharina Brunner"
       photo: "/img/speaker-KatharinaBrunner.png"
       bio: "Katharina Brunner is part of the team Data and Digital Investigation at Süddeutsche Zeitung. There, she works at the intersection of traditional reporting, data analysis and data visualization."
@@ -145,30 +157,18 @@ params:
       presentation:
         title: "Driven Data Journalism: How data can change reporting"
         description: "Like in many other industries, data driven insights play an ever more important role in journalism. Katharina Brunner will speak about some projects she has been working on at the Süddeutsche Zeitung, one of the largest and most important newspaper in the South of Germany. For example: How to get an idea of the blackbox Facebook? How has the German Parliament changed ever since the AfD entered the scene? And, most important, how to communicate the findings in a non-nerdy way?"
-        time: "13h00"
-
-    - name:
-      photo: "/img/speaker.png"
-      bio: ""
-      company: ""
-      link:
-        href: ""
-        text: "Speaker's website"
-      presentation:
-        title: ""
-        description: ""
         time: "13h30"
 
-    - name:
-      photo: "/img/speaker.png"
-      bio: ""
-      company: ""
+    - name: "Thomas Bühler"
+      photo: "/img/speaker-ThomasBuehler.png"
+      bio: "Thomas is an AI Researcher at Avira passionate about building large-scale Machine Learning systems for fighting threats in the cyber security space. His goal is to use the latest AI and ML techniques to ensure the best possible protection of Avira's customers. Before joining Avira, he was an academic researcher at Cluster of Excellence MMCI, working on algorithmic and theoretical foundations of Machine Learning. Thomas holds a Dr.rer.nat. and a M.Sc. in Computer Science from Saarland University."
+      company: "Avira Operations GmbH & Co. KG"
       link:
-        href: ""
+        href: "https://www.linkedin.com/in/thomas-buehler/"
         text: "Speaker's website"
       presentation:
-        title: ""
-        description: ""
+        title: "Large-scale Machine Learning based Malware Detection"
+        description: "With the emergence of hundreds of thousands of new malware threats every day, the task of providing up-to-date virus definitions becomes increasingly challenging and traditional antivirus techniques alone are not sufficient anymore. In this session we talk about the challenges arising from this adversarial setting. We will then dive in and share some of Avira's decade-long experience in developing large-scale artificial intelligence based antivirus engines for the detection of malicious files."
         time: "14h00"
 
     - name: "Coffee break"
@@ -185,7 +185,7 @@ params:
         title: "Turning Measurements into Optimal Control Signals"
         description: "The heart of sonnen’s products, such as the sonnenBatterie and the sonnenCharger, is to allow their users to optimize the consumption of their self-generated energy. In addition, these devices are also very well suited to offer flexibility to the energy market as they allow a quick and precise reaction to fluctuations of decentralized renewable energy sources. The sonnenBatterie and the sonnenCharger hence come with a charge control that ensures an optimal mix of savings by self-consumed energy and additional revenues from different flexibility markets and grid services. In this talk, I will show how predictions built from historic measurement data are turned into optimal control signals by means of Mathematical Programming."
         time: "15h00"
-        info: "Closening keynote"
+        info: "Closing keynote"
 
     - name: "Goodbye"
       time: "16h00"
