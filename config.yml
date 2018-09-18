@@ -87,10 +87,10 @@ params:
   # The entire schedule
   Schedule:
     - name: "Registration"
-      time: "8h45"
+      time: "8:45"
 
     - name: "Welcome"
-      time: "9h15"
+      time: "9:15"
 
     - name: "Matthias Anderer"
       photo: "/img/speaker-MatthiasAnderer.png"
@@ -102,11 +102,11 @@ params:
       presentation:
         title: "Between Dream and Reality - The Long Journey to AI"
         description: "While DeepMind & others weekly release new and more spectecular results, is the German industry regarding AI still at the very beginning. We will examine examples on the subject to understand why >80% of the work depends on data determination and data preparation and clarify the big open questions regarding AI application."
-        time: "9h30"
+        time: "9:30"
         info: "Opening keynote"
 
     - name: "Coffee break"
-      time: "10h30"
+      time: "10:30"
 
     - name: "Tobias Windisch"
       photo: "/img/speaker-TobiasWindisch.png"
@@ -118,7 +118,7 @@ params:
       presentation:
         title: "Boosting Assembly Lines with Machine Learning"
         description: "A key challenge in running production lines efficiently is to detect bad parts early in the manufacturing process. Machine learning allows to predict the status of parts, but as bad ones are rare and misclassifying good ones is expensive, finding feasible models is hard. We present how we train and select profitable models to detect bad parts early in the assembly process of automotive camera systems and show the challenges we faced when dealing with imbalanced datasets from manufacturing lines."
-        time: "11h00"
+        time: "11:00"
 
     - name:
       photo: "/img/speaker.png"
@@ -130,10 +130,10 @@ params:
       presentation:
         title: ""
         description: ""
-        time: "11h30"
+        time: "11:30"
 
     - name: "Lunch break"
-      time: "12h00"
+      time: "12:00"
 
     - name: "Hannes Sieling"
       photo: "/img/speaker-HannesSieling.png"
@@ -145,7 +145,7 @@ params:
       presentation:
         title: "Price Optimization: Applied Machine-Learning to drive business decisions"
         description: "The talk guides through the challenges of applying decision-making algorithms based on machine learning to business processes by means of Price Optimization. In the context of Price Optimization accurate demand forecasts enable retailer to find prices according to their business strategy, consumer demand and market conditions. Forecasts for demand and price elasticities are regression tasks that can be addressed by supervised learning algorithms. On the one hand, rare events such as holidays, weather effects, promotions and trends evolving over time require special treatment. On the other hand, the particular use of the forecasts to actively steer prices imposes the substantial challenge to identify the casual effect of price changes to customers’ demand. That is why Data-Scientists involved in Price Optimization face problems that cover exciting parts across areas from statistical learning, discrete optimization, reinforcement learning and many more. A detailed view on these statistical challenges, many practical aspects and insights of the potential of these applications are provided within this talk."
-        time: "13h00"
+        time: "13:00"
 
     - name: "Katharina Brunner"
       photo: "/img/speaker-KatharinaBrunner.png"
@@ -157,7 +157,7 @@ params:
       presentation:
         title: "Driven Data Journalism: How data can change reporting"
         description: "Like in many other industries, data driven insights play an ever more important role in journalism. Katharina Brunner will speak about some projects she has been working on at the Süddeutsche Zeitung, one of the largest and most important newspaper in the South of Germany. For example: How to get an idea of the blackbox Facebook? How has the German Parliament changed ever since the AfD entered the scene? And, most important, how to communicate the findings in a non-nerdy way?"
-        time: "13h30"
+        time: "13:30"
 
     - name: "Thomas Bühler"
       photo: "/img/speaker-ThomasBuehler.png"
@@ -169,10 +169,10 @@ params:
       presentation:
         title: "Large-scale Machine Learning based Malware Detection"
         description: "With the emergence of hundreds of thousands of new malware threats every day, the task of providing up-to-date virus definitions becomes increasingly challenging and traditional antivirus techniques alone are not sufficient anymore. In this session we talk about the challenges arising from this adversarial setting. We will then dive in and share some of Avira's decade-long experience in developing large-scale artificial intelligence based antivirus engines for the detection of malicious files."
-        time: "14h00"
+        time: "14:00"
 
     - name: "Coffee break"
-      time: "14h30"
+      time: "14:30"
 
     - name: "Stefan König"
       photo: "/img/speaker-StefanKoenig.png"
@@ -184,15 +184,18 @@ params:
       presentation:
         title: "Turning Measurements into Optimal Control Signals"
         description: "The heart of sonnen’s products, such as the sonnenBatterie and the sonnenCharger, is to allow their users to optimize the consumption of their self-generated energy. In addition, these devices are also very well suited to offer flexibility to the energy market as they allow a quick and precise reaction to fluctuations of decentralized renewable energy sources. The sonnenBatterie and the sonnenCharger hence come with a charge control that ensures an optimal mix of savings by self-consumed energy and additional revenues from different flexibility markets and grid services. In this talk, I will show how predictions built from historic measurement data are turned into optimal control signals by means of Mathematical Programming."
-        time: "15h00"
+        time: "15:00"
         info: "Closing keynote"
 
-    - name: "Goodbye"
-      time: "16h00"
+    - name: "Final words"
+      time: "16:00"
 
-    - name: "Conference dinner"
-      time: "18h00"
-      info: "Details can be find <a href=\"https://docs.google.com/viewer?url=https://datapioneers.tech/dp2018-dinner.pdf\">here</a>"
+    - name: "Networking"
+      time: "16:15"
+
+    - name: "Departure to conference dinner"
+      time: "17:30"
+      info: "Details can be found <a href=\"https://docs.google.com/viewer?url=https://datapioneers.tech/dp2018-dinner.pdf\">here</a>"
 
 
   # Organizers:
