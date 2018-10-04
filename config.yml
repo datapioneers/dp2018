@@ -120,16 +120,18 @@ params:
         description: "A key challenge in running production lines efficiently is to detect bad parts early in the manufacturing process. Machine learning allows to predict the status of parts, but as bad ones are rare and misclassifying good ones is expensive, finding feasible models is hard. We present how we train and select profitable models to detect bad parts in our assembly processes and show the challenges we faced when dealing with imbalanced datasets from manufacturing lines."
         time: "11:00"
 
-    - name:
-      photo: "/img/speaker.png"
-      bio: ""
-      company: ""
+    - name: "Kathrin Plankensteiner"
+      photo: "/img/speaker-KathrinPlankensteiner.png"
+      bio: "Kathi studied technical mathematics and data analysis at the University of Klagenfurt, Austria. She received her PhD. in applied statistics in 2015. During her studies, she worked for KAI (Kompetenzzentrum Automobil- u. Industrieelektronik GmbH). Now she works as a Data Scientist at Julius Blum GmbH and as a research assistant at Digital Factory Vorarlberg, FH Vorarlberg. Her field of research includes reliability testing and analyzing, lifetime modeling, regression analysis, computational statistics, multivariate data analysis, statistical inference, machine learning."
+      company: "FH Vorarlberg, Forschungszentrum „Digital Factory Vorarlberg“"
       link:
-        href: ""
+        href: "https://www.linkedin.com/in/kathrin-plankensteiner-141b65171/"
         text: "Speaker's website"
       presentation:
-        title: ""
-        description: ""
+        title: "Application of Supervised Learning to Predict the Quality of a Welding Process"
+        description: "In industry end-of-life tests are necessary to verify that products operate reliably. Since it is not possible to test devices at real stress conditions, accelerated stress tests in combination with statistical models are commonly applied.
+In this study, data from a welding process, welding spatter data and lifetime data, are investigated. For the classification of welding spatters, decision trees, kNN, k-means and linear regression models are evaluated. For the prediction of product lifetime, linear regression models are analyzed and compared with neural network models.
+"
         time: "11:30"
 
     - name: "Lunch break"
