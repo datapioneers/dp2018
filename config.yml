@@ -206,8 +206,8 @@ In this study, data from a welding process, welding spatter data and lifetime da
       photo: "img/org-julia.jpg"
       bio: "Julia is an open-minded mathematician, passionate about machine learning, artificial intelligence and data driven business models. She started her career as a researcher in the field of extremal combinatorics and probabilistic graph theory at TU München and TU Hamburg, from where she received her PhD in 2016. Today, Julia works as a Data Scientist in the Innovation Campus at Robert Bosch GmbH, a team employing data mining and machine learning to increase efficiency in manufacturing, thereby actively shaping Industrie 4.0. On a freelance basis, she also supports young companies in building disruptive innovations based on data analysis and predictive modeling. In November 2017, Julia initiated the meet-up Data Science Stammtisch Allgäu, which offers regular talks and networking possibilities for data science enthusiasts in the Allgäu region."
       link:
-        href: https://www.linkedin.com/in/juliaehrenmueller/
-        text: LinkedIn
+        href: https://www.ehrenmueller.ai
+        text: Website
     - name: Manuel J. A. Eugster
       photo: "img/org-manuel.jpg"
       bio: "Manuel is a data scientist by heart on the mission of turning data into insights. Currently he leads the Data Analytics & Insights unit at Avira. There he and his team develop data analytics solutions that transform massive amounts of (real-time) data from various sources into knowledge about customers and products. Prior to Avira, he was a scientific researcher at the Probabilistic Machine Learning group at HIIT, Aalto University in Finland and the Department of Statistics at LMU Munich. He worked, among other things, on next generation information retrieval systems using brain-computer interfaces. He holds a PhD in Statistics from LMU Munich, a MSc in Computational Intelligence and a BSc in Software and Information Engineering from TU Vienna."
