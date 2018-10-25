@@ -195,10 +195,8 @@ In this study, data from a welding process, welding spatter data and lifetime da
     - name: "Networking"
       time: "16:15"
 
-    - name: "Departure to conference dinner"
+    - name: "End of conference"
       time: "17:30"
-      info: "Details can be found <a href=\"https://docs.google.com/viewer?url=https://datapioneers.tech/dp2018-dinner.pdf\">here</a>"
-
 
   # Organizers:
   Organizers:
