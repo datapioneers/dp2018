@@ -52,9 +52,9 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  CallToAction:
-    text: "Register now!"
-    link: "http://datapioneers2018.eventbrite.de/"
+  #CallToAction:
+  #  text: "Register now!"
+  #  link: "http://datapioneers2018.eventbrite.de/"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   #ForkButton:
@@ -202,7 +202,7 @@ In this study, data from a welding process, welding spatter data and lifetime da
   Organizers:
     - name: Julia Ehrenmüller
       photo: "img/org-julia.jpg"
-      bio: "Julia is an open-minded mathematician, passionate about machine learning, artificial intelligence and data driven business models. She started her career as a researcher in the field of extremal combinatorics and probabilistic graph theory at TU München and TU Hamburg, from where she received her PhD in 2016. Today, Julia works as a Data Scientist in the Innovation Campus at Robert Bosch GmbH, a team employing data mining and machine learning to increase efficiency in manufacturing, thereby actively shaping Industrie 4.0. On a freelance basis, she also supports young companies in building disruptive innovations based on data analysis and predictive modeling. In November 2017, Julia initiated the meet-up Data Science Stammtisch Allgäu, which offers regular talks and networking possibilities for data science enthusiasts in the Allgäu region."
+      bio: "Julia is an open-minded mathematician, passionate about machine learning, artificial intelligence and data driven business models. Very recently, she started her own business offering consultancy and implementation in the area of predictive modeling and artificial intelligence. Before that, Julia worked as a Data Scientist at Sixt SE and at Robert Bosch GmbH, where she and her colleagues employed data mining and machine learning to increase efficiency in manufacturing. She started her career as a researcher in the field of extremal combinatorics and probabilistic graph theory at TU München and TU Hamburg, from where she received her PhD in 2016. In November 2017, Julia initiated the meet-up Data Science Stammtisch Allgäu, which offers regular talks and networking possibilities for data science enthusiasts in the Allgäu region."
       link:
         href: http://www.ehrenmueller.ai
         text: Website
