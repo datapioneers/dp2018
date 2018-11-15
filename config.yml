@@ -27,6 +27,7 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
+    - photos
     - location
     - speakers
     - schedule
@@ -40,6 +41,7 @@ params:
   # Titles which you can translate to other languages
   Titles:
     about: "About"
+    photos: "Photos"
     location: "Location"
     speakers: "Speakers"
     schedule: "Schedule"
@@ -65,6 +67,17 @@ params:
     - name: "Allgäu Digital"
       logo: "/img/logo-ad.png"
       url: "https://standort.allgaeu.de/allgaeudigital"
+
+  # List of Photos
+  Photos:
+    - preview: "img/preview-DSC_0113.JPG"
+      url: "https://drive.google.com/open?id=1JOy20LGbq67fil65WUYjDO5EJc_X0qkM"
+    - preview: "img/preview-DSC_0113.JPG"
+      url: "https://drive.google.com/open?id=1JOy20LGbq67fil65WUYjDO5EJc_X0qkM"
+    - preview: "img/preview-DSC_0113.JPG"
+      url: "https://drive.google.com/open?id=1JOy20LGbq67fil65WUYjDO5EJc_X0qkM"
+    - preview: "img/preview-DSC_0113.JPG"
+      url: "https://drive.google.com/open?id=1JOy20LGbq67fil65WUYjDO5EJc_X0qkM"
 
   # List of Partners
   Partners:
