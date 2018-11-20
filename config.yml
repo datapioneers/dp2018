@@ -70,14 +70,30 @@ params:
 
   # List of Photos
   Photos:
-    - preview: "img/preview-DSC_0113.JPG"
-      url: "https://drive.google.com/open?id=1JOy20LGbq67fil65WUYjDO5EJc_X0qkM"
-    - preview: "img/preview-DSC_0113.JPG"
-      url: "https://drive.google.com/open?id=1JOy20LGbq67fil65WUYjDO5EJc_X0qkM"
-    - preview: "img/preview-DSC_0113.JPG"
-      url: "https://drive.google.com/open?id=1JOy20LGbq67fil65WUYjDO5EJc_X0qkM"
-    - preview: "img/preview-DSC_0113.JPG"
-      url: "https://drive.google.com/open?id=1JOy20LGbq67fil65WUYjDO5EJc_X0qkM"
+    - preview: "img/preview-DSC_0114.JPG"
+      url: "https://drive.google.com/open?id=1EUuQLHGt7OdCL6SU31y5SKYHPxx8S4Al"
+    - preview: "img/preview-DSC_0126.JPG"
+      url: "https://drive.google.com/open?id=1hjLacMk3sru5UfH0At0ANgZiwctTiu6N"
+    - preview: "img/preview-DSC_0132.JPG"
+      url: "https://drive.google.com/open?id=10dMQS2q2LcVs8sYJqYjW8DKoZkJPYX8h"
+    - preview: "img/preview-DSC_0153.JPG"
+      url: "https://drive.google.com/open?id=1fPHPPldbhD0z6vC5siGn8St5Dg01Baeh"
+    - preview: "img/preview-DSC_0176.JPG"
+      url: "https://drive.google.com/open?id=1divV--BcC8kpni1iE0TWAWiRwJHQZVLA"
+    - preview: "img/preview-DSC_0190.JPG"
+      url: "https://drive.google.com/open?id=1BTX0Wsy1MBuR3tJCpTzUBKxz_jhOSoL5"
+    - preview: "img/preview-DSC_0204.JPG"
+      url: "https://drive.google.com/open?id=1S2AaOHGSn_p8JgoymrsfCKtemZvhQ2fk"
+    - preview: "img/preview-DSC_0223.JPG"
+      url: "https://drive.google.com/open?id=1HOFQ22sYQQvSgVLurGnwTAaOcZl0jWbA"
+    - preview: "img/preview-DSC_0230.JPG"
+      url: "https://drive.google.com/open?id=1KEt1dgpqA6iP4JC8BCRme5WXYFp9VpnY"
+    - preview: "img/preview-DSC_0244.JPG"
+      url: "https://drive.google.com/open?id=1jLsVK6ayiJpsETh8ejebdOj_tqEfhjCm"
+    - preview: "img/preview-DSC_0263.JPG"
+      url: "https://drive.google.com/open?id=1T54LVmw3qEe2PemmEBNbmsYO09UrVGBp"
+    - preview: "img/preview-DSC_0280.JPG"
+      url: "https://drive.google.com/open?id=1ppkrTaCArKoZrvTQ7gvvSeJoLYC3uzVm"
 
   # List of Partners
   Partners:
