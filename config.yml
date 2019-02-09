@@ -3,6 +3,7 @@ baseurl: "."
 title: "Data Pioneers 2018"
 canonifyurls: true
 theme: "hugo-conference"
+publishDir: docs
 
 GoogleAnalytics: ""
 
